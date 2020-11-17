@@ -1,0 +1,36 @@
+{
+  "ret": true,
+  "data": {
+    "iconList": [{
+      "id": "0001",
+      "imgUrl": "\ue621",
+      "desc": "搞笑",
+      "imgbg": "color: #e74c3c"
+    }, {
+      "id": "0002",
+      "imgUrl": "\ue60e",
+      "desc": "科幻",
+      "imgbg": "color: #3498db"
+    }, {
+      "id": "0003",
+      "imgUrl": "\ue600",
+      "desc": "悬疑",
+      "imgbg": "color: #2c3e50"
+    }, {
+      "id": "0004",
+      "imgUrl": "\ue611",
+      "desc": "动作",
+      "imgbg": "color: #e67e22"
+    }, {
+      "id": "0005",
+      "imgUrl": "\ue874",
+      "desc": "卡通",
+      "imgbg": "color: #2ecc71"
+    }, {
+      "id": "0006",
+      "imgUrl": "\ue877",
+      "desc": "恐怖",
+      "imgbg": "color: #2d3436"
+    }]
+  }
+}
