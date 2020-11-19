@@ -44,16 +44,15 @@ export default {
     cities: Object,
     letter: String
   },
-  updated () {
+  mounted () {
     this.scroll = new BScroll(this.$refs.wrapper, {
-      click: true
+      click: true,
+      disableMouse: false,
+      disableTouch: false
     })
   },
-  activated () {
-    this.scroll = new BScroll(this.$refs.wrapper, {
-      click: true
-    })
-    console.log('act')
+  updated () {
+    this.scroll.refresh()
   },
   watch: {
     letter () {
